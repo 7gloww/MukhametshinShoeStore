@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ba3792c92005412cb57f0ff2ca40f389" Name="Diagram1">
+        <EntityTypeShape EntityType="MuhametshinShoesDBModel.Category" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuhametshinShoesDBModel.Manufacturer" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuhametshinShoesDBModel.Order" Width="1.5" PointX="5.25" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuhametshinShoesDBModel.OrderItem" Width="1.5" PointX="7.5" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuhametshinShoesDBModel.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuhametshinShoesDBModel.Role" Width="1.5" PointX="0.75" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuhametshinShoesDBModel.Size" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuhametshinShoesDBModel.StockItem" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuhametshinShoesDBModel.Subcategory" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuhametshinShoesDBModel.User" Width="1.5" PointX="3" PointY="10.5" IsExpanded="true" />
+        <AssociationConnector Association="MuhametshinShoesDBModel.FK_Product_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="MuhametshinShoesDBModel.FK_Product_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="MuhametshinShoesDBModel.FK_Order_User" ManuallyRouted="false" />
+        <AssociationConnector Association="MuhametshinShoesDBModel.FK_OrderItem_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="MuhametshinShoesDBModel.FK_OrderItem_StockItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MuhametshinShoesDBModel.FK_Product_Subcategory" ManuallyRouted="false" />
+        <AssociationConnector Association="MuhametshinShoesDBModel.FK_StockItem_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="MuhametshinShoesDBModel.FK_User_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="MuhametshinShoesDBModel.FK_StockItem_Size" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
